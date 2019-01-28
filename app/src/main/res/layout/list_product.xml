@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_select"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:listSelector="@drawable/list_selector"
+    android:orientation="vertical"
+    android:padding="5dip">
+
+
+    <!-- Title Of Song-->
+
+    <!-- Artist Name -->
+
+    <!-- Rightend Duration -->
+
+    <!-- Rightend Arrow -->
+
+
+    <RelativeLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="0031800002"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="บิ๊กซี สะพานควาย"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp" />
+
+    </RelativeLayout>
+</LinearLayout>
+

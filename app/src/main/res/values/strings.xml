@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ระบบการรับถุงผ้า</string>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+
+    <string name="agreement">I agree the terms and conditions.</string>
+    <string name="clear_pad">Clear</string>
+    <string name="save_signature">Save</string>
+    <string name="compress_signature">Scale</string>
+
+    <string name="bluetooth_header_text">BlueTooth</string>
+    <string name="bluetooth_none_paired">No devices have been paired</string>
+    <string name="bluetooth_scanning">scanning for devices...</string>
+    <string name="bluetooth_select_device">select a device to connect</string>
+    <string name="bluetooth_none_found">No devices found</string>
+    <string name="bluetooth_btnSearch">Connect  Bluetooth  Printer</string>
+    <string name="bluetooth_btnSend">Print</string>
+    <string name="bluetooth_qr_code_Send">2D Barcode Print</string>
+    <string name="bluetooth_btn_test">Print Test Page</string>
+    <string name="bluetooth_btnClose">Close</string>
+    <string name="bluetooth_txt_content"></string>
+    <string name="bluetooth_menu_settings">set</string>
+    <string name="bluetooth_strLang">en</string>
+    <string name="bluetooth_button_scan">Scan for devices</string>
+    <string name="bluetooth_qr_code_Send_string">SDK 2D-Code print test.</string>
+    <string name="title_activity_menu">Checker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="font_path">fonts/vazir.ttf</string>
+</resources>
